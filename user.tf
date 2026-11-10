@@ -9,7 +9,7 @@ resource "genesyscloud_user" "example_user" {
   manager         = genesyscloud_user
   acd_auto_answer = true
   profile_skills  = ["Java", "Go"]
-  certifications  = ["Certified Developer"]
+  certifications  = ["Senior Developer"]
   addresses {
     other_emails {
       address = "sivakumar.yadav@orange.com"
